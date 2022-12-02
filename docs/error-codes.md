@@ -35,6 +35,8 @@ the error code. For example:
 
 #### `IL1007`: Missing predefined 'type' type
 
+- Consider adding the missing reference to your project or pass `--disable-opt unreachablebodies` to ignore.
+
 #### `IL1008`: Could not find constructor on 'type'
 
 #### `IL1009`: Assembly reference 'name' could not be resolved
